@@ -1,0 +1,5 @@
+{
+    "idf.currentSetup": "/home/chonxi/.espressif/v6.0/esp-idf",
+    "idf.port": "/dev/ttyACM0",
+    "idf.flashType": "UART"
+}

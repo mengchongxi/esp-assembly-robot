@@ -1,0 +1,2 @@
+source /home/chonxi/robotreal/esp32/motor_wifi_control/build/bootloader/gdbinit/symbols
+source /home/chonxi/robotreal/esp32/motor_wifi_control/build/bootloader/gdbinit/connect

@@ -1,0 +1,27 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "encoder_hw.c"
+        "motor_multi.c"
+        "pd_controller.c"
+        "joint_manager.c"
+        "control_task.c"
+        "http_server.c"
+        "web_ui.cpp"
+        "wifi_manager.c"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_wifi
+        esp_event
+        esp_netif
+        esp_http_server
+        nvs_flash
+        esp_timer
+        log
+        lwip
+        esp_driver_gpio
+        esp_driver_ledc
+        esp_driver_mcpwm
+)
