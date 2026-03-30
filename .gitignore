@@ -1,0 +1,23 @@
+# ESP-IDF build directories
+build/
+**/build/
+
+# ESP-IDF sdkconfig files (optional, uncomment if you don't want to share these)
+# sdkconfig
+# sdkconfig.old
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
